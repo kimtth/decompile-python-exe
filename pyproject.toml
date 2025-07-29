@@ -1,0 +1,20 @@
+[project]
+name = "decompile-python-exe"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "kimtth"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "pyinstxtractor-ng (>=2025.1.6,<2026.0.0)",
+    "decompyle3 (>=3.9.2,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+package-mode = false 
